@@ -348,4 +348,6 @@ WHERE Author_Name = ISNULL(@Author_Name,Author_Name)
 AND Branch_Name = 'Central'
 GO 
 
-EXEC dbo.Stp_find_authorandbranch @author_Name = 'Wolff, Tobias'
+EXEC dbo.Stp_find_authorandbranch @author_Name = 'King, Stephen'
+
+/*--There are no Stephen King books at central.  Feel free to search other authors names at the central branch using 'lastname, Firstname'
